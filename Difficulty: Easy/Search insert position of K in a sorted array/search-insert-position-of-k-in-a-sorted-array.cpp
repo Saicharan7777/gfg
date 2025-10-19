@@ -3,7 +3,7 @@ class Solution {
     int searchInsertK(vector<int> &arr, int k) {
         // code here
         int l=0,h=arr.size()-1;
-        while(l<=h)
+        while(l<=h) 
         {
             int m=l+(h-l)/2;
             if(arr[m]==k) return m;
